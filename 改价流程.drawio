@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T03:45:59.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OGLsuucG481MWWo8cQ37" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:55:14.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rwSHBg1VlJJ2rdPAGKCb" version="22.1.0" type="github">
   <diagram name="第 1 页" id="X5Vm9NSqfif9E05FRqca">
-    <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-2" value="APP" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="310" y="110" width="190" height="850" as="geometry">
+          <mxGeometry x="310" y="110" width="190" height="930" as="geometry">
             <mxRectangle x="150" y="110" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -19,7 +19,7 @@
           <mxGeometry x="35" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-7" value="OMS" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="650" y="110" width="220" height="850" as="geometry">
+          <mxGeometry x="650" y="110" width="220" height="930" as="geometry">
             <mxRectangle x="470" y="110" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,8 +49,17 @@
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-40" value="组装数据，返回app" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_qAMSz7JW3qsbfFBy3NO-7">
           <mxGeometry x="50" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_qAMSz7JW3qsbfFBy3NO-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qAMSz7JW3qsbfFBy3NO-7" source="_qAMSz7JW3qsbfFBy3NO-46" target="_qAMSz7JW3qsbfFBy3NO-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qAMSz7JW3qsbfFBy3NO-46" value="按sku改价" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_qAMSz7JW3qsbfFBy3NO-7">
+          <mxGeometry x="50" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qAMSz7JW3qsbfFBy3NO-48" value="走原来改价逻辑&lt;br&gt;（判断金额是否小于0&lt;br&gt;开关等条件）" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_qAMSz7JW3qsbfFBy3NO-7">
+          <mxGeometry x="50" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-8" value="GOODS" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="110" width="190" height="850" as="geometry">
+          <mxGeometry x="1370" y="110" width="190" height="930" as="geometry">
             <mxRectangle x="150" y="110" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -69,7 +78,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-14" value="WMS" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="110" width="220" height="850" as="geometry">
+          <mxGeometry x="1000" y="110" width="220" height="930" as="geometry">
             <mxRectangle x="150" y="110" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -103,6 +112,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_qAMSz7JW3qsbfFBy3NO-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_qAMSz7JW3qsbfFBy3NO-40" target="_qAMSz7JW3qsbfFBy3NO-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qAMSz7JW3qsbfFBy3NO-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_qAMSz7JW3qsbfFBy3NO-44" target="_qAMSz7JW3qsbfFBy3NO-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
