@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T09:57:48.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LhFqZsoIXD84j5AmDs4p" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T09:59:52.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1p6L_1czUmR9JYidaIbU" version="22.1.0" type="github">
   <diagram name="第 1 页" id="bine2cX4gsOpG5Ys-mz4">
     <mxGraphModel dx="1994" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,11 @@
         <mxCell id="95OTykpPr1zENCsGVvWN-29" value="组装数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="930" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="95OTykpPr1zENCsGVvWN-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-37" value="调用goods生成审核数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -111,10 +116,7 @@
           <mxGeometry x="-50" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-47" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="1470" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-48" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1210" width="100" height="60" as="geometry" />
+          <mxGeometry x="-420" y="1610" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-49" target="95OTykpPr1zENCsGVvWN-53">
           <mxGeometry relative="1" as="geometry" />
@@ -157,14 +159,22 @@
         <mxCell id="95OTykpPr1zENCsGVvWN-57" value="判断余额账期是否充足" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="440" y="1100" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-60" target="95OTykpPr1zENCsGVvWN-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="95OTykpPr1zENCsGVvWN-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="1150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-60" value="抛出异常" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-53" target="95OTykpPr1zENCsGVvWN-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="95OTykpPr1zENCsGVvWN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-53" target="95OTykpPr1zENCsGVvWN-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="969" />
+              <mxPoint x="900" y="1640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-68" target="95OTykpPr1zENCsGVvWN-37">
           <mxGeometry relative="1" as="geometry" />
@@ -196,9 +206,6 @@
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-72" value="改所有订单商品价格" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="1460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-37" target="95OTykpPr1zENCsGVvWN-48">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-83">
           <mxGeometry relative="1" as="geometry">
