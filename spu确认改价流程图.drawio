@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T09:59:52.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1p6L_1czUmR9JYidaIbU" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T01:34:32.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dXeKZbt1QT-8awQfrBUI" version="22.1.0" type="github" pages="2">
   <diagram name="第 1 页" id="bine2cX4gsOpG5Ys-mz4">
-    <mxGraphModel dx="1994" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1994" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,11 +109,10 @@
         <mxCell id="95OTykpPr1zENCsGVvWN-37" value="调用goods生成审核数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-45" target="95OTykpPr1zENCsGVvWN-87">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-45" value="开始&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;app发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="40" width="100" height="60" as="geometry" />
+        <mxCell id="95OTykpPr1zENCsGVvWN-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" target="95OTykpPr1zENCsGVvWN-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="100.00000000000011" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-47" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1610" width="100" height="60" as="geometry" />
@@ -156,7 +155,12 @@
         <mxCell id="95OTykpPr1zENCsGVvWN-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-57" target="95OTykpPr1zENCsGVvWN-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95OTykpPr1zENCsGVvWN-57" value="判断余额账期是否充足" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="95OTykpPr1zENCsGVvWN-97" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="95OTykpPr1zENCsGVvWN-69">
+          <mxGeometry x="-0.1457" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95OTykpPr1zENCsGVvWN-57" value="判断余额是否充足" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="440" y="1100" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-60">
@@ -226,6 +230,89 @@
         </mxCell>
         <mxCell id="95OTykpPr1zENCsGVvWN-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-9" target="95OTykpPr1zENCsGVvWN-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95OTykpPr1zENCsGVvWN-98" value="开始&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;app发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95OTykpPr1zENCsGVvWN-100" value="sku集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95OTykpPr1zENCsGVvWN-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="95OTykpPr1zENCsGVvWN-100" target="95OTykpPr1zENCsGVvWN-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PaK54EYl4CQunJ5oGmIk-2" target="PaK54EYl4CQunJ5oGmIk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-2" value="app发起&lt;br&gt;spu改价开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PaK54EYl4CQunJ5oGmIk-4" target="PaK54EYl4CQunJ5oGmIk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-4" value="根据拿货id获取拿货详情信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PaK54EYl4CQunJ5oGmIk-6" target="PaK54EYl4CQunJ5oGmIk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-6" value="判断商品匹配类型" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PaK54EYl4CQunJ5oGmIk-8" target="PaK54EYl4CQunJ5oGmIk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-8" value="调用商品中心&lt;br&gt;根据sku查询所属spu&lt;br&gt;根据spu查询所有sku" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PaK54EYl4CQunJ5oGmIk-10" target="PaK54EYl4CQunJ5oGmIk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-10" value="返回所有sku" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaK54EYl4CQunJ5oGmIk-11" value="组装数据返回app" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qAPolFP5vLJoUPB_RoR2" name="第 2 页">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HBaBjrW5iKqpNsAWHef8-1" target="HBaBjrW5iKqpNsAWHef8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-1" value="app发起&lt;br&gt;spu改价开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HBaBjrW5iKqpNsAWHef8-2" target="HBaBjrW5iKqpNsAWHef8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-2" value="根据拿货id获取拿货详情信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HBaBjrW5iKqpNsAWHef8-8" target="HBaBjrW5iKqpNsAWHef8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-8" value="判断商品匹配类型" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HBaBjrW5iKqpNsAWHef8-10" target="HBaBjrW5iKqpNsAWHef8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-10" value="调用商品中心&lt;br&gt;根据sku查询所属spu&lt;br&gt;根据spu查询所有sku" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HBaBjrW5iKqpNsAWHef8-12" target="HBaBjrW5iKqpNsAWHef8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-12" value="返回所有sku" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaBjrW5iKqpNsAWHef8-14" value="组装数据返回app" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
