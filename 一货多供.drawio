@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T06:59:10.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="a54rs9FW9xGc80s9ur6-" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T06:59:40.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9PGf73DTpCdkLnC20lcg" version="22.1.7" type="github">
   <diagram name="第 1 页" id="bHZ9tbYM5ysoylyOXRkc">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,14 @@
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-3" value="将已拿货的拆出" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="514" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-6" target="zcLDfy7w5oOfBzAk3oKw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-6" value="删除老商品信息&lt;br&gt;添加新商品信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-10" value="组装数据，返回wms" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
