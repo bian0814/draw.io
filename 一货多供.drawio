@@ -1,62 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T07:02:49.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cyK4li0et-T25PMQq1v1" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T03:46:09.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UmPER10LUCE1mUtHXmUT" version="22.1.7" type="github">
   <diagram name="第 1 页" id="bHZ9tbYM5ysoylyOXRkc">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2qdwkHMyEG_etYDa020W-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2qdwkHMyEG_etYDa020W-1" target="2qdwkHMyEG_etYDa020W-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2qdwkHMyEG_etYDa020W-1" value="确认" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="364" y="80" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qdwkHMyEG_etYDa020W-2" target="zcLDfy7w5oOfBzAk3oKw-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2qdwkHMyEG_etYDa020W-2" value="根据uuid和sku查询订单商品信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-1" target="zcLDfy7w5oOfBzAk3oKw-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-5" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zcLDfy7w5oOfBzAk3oKw-4">
-          <mxGeometry x="-0.3067" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-13" value="app" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="200" height="410" as="geometry">
+            <mxRectangle x="50" y="160" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-1" target="zcLDfy7w5oOfBzAk3oKw-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-14" value="wms" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="200" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-8" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zcLDfy7w5oOfBzAk3oKw-7">
-          <mxGeometry x="-0.28" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-15" value="oms" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="200" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-1" value="判断是否是部分拿货商品" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="374" y="350" width="80" height="80" as="geometry" />
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-16" value="goods" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="980" y="160" width="200" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="574" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-3" value="将已拿货的拆出" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="514" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-6" target="zcLDfy7w5oOfBzAk3oKw-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-6" value="删除老商品信息&lt;br&gt;添加新商品信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-10" value="组装数据，返回wms" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zcLDfy7w5oOfBzAk3oKw-12" value="&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;zog.*&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FROM&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zjf_order AS zo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;INNER JOIN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zjf_order_goods AS zog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;ON&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zo.id = zog.order_id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zo.order_state = 30 AND&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zo.uuid = 3000123 AND&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zog.goods_id = 123456 AND&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zog.store_id = 1111 AND&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;zog.goods_state IN (1,5)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="180" height="250" as="geometry" />
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-17" value="pay" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="160" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
