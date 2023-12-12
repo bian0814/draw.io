@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T03:46:09.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UmPER10LUCE1mUtHXmUT" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T03:51:14.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2AH-DipXoMyo_BZ1-bLU" version="22.1.7" type="github">
   <diagram name="第 1 页" id="bHZ9tbYM5ysoylyOXRkc">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,8 +9,20 @@
             <mxRectangle x="50" y="160" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-22" value="换厂家" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zcLDfy7w5oOfBzAk3oKw-13">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-31" value="列表展示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="zcLDfy7w5oOfBzAk3oKw-13">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-14" value="wms" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="370" y="160" width="200" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-24" value="查询出商品信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="zcLDfy7w5oOfBzAk3oKw-14">
+          <mxGeometry x="44" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-30" value="换厂家列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zcLDfy7w5oOfBzAk3oKw-14">
+          <mxGeometry x="44" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-15" value="oms" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="680" y="160" width="200" height="400" as="geometry" />
@@ -18,8 +30,29 @@
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-16" value="goods" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="980" y="160" width="200" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-26" value="查出商品列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="zcLDfy7w5oOfBzAk3oKw-16">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="zcLDfy7w5oOfBzAk3oKw-17" value="pay" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1280" y="160" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-22" target="zcLDfy7w5oOfBzAk3oKw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-24" target="zcLDfy7w5oOfBzAk3oKw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="300" />
+              <mxPoint x="1040" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcLDfy7w5oOfBzAk3oKw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zcLDfy7w5oOfBzAk3oKw-30" target="zcLDfy7w5oOfBzAk3oKw-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
