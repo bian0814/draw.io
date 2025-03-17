@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Zge93vPWhQPrUG6nBFem-1" value="原逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="78" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zge93vPWhQPrUG6nBFem-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zge93vPWhQPrUG6nBFem-2" target="Zge93vPWhQPrUG6nBFem-4">
           <mxGeometry relative="1" as="geometry" />
@@ -23,7 +23,7 @@
         <mxCell id="Zge93vPWhQPrUG6nBFem-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zge93vPWhQPrUG6nBFem-4" target="Zge93vPWhQPrUG6nBFem-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zge93vPWhQPrUG6nBFem-4" value="根据uuid和订单状态(XXX)查询订单id" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zge93vPWhQPrUG6nBFem-4" value="根据uuid和订单状态(XXX)查询订单id【查询es】" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zge93vPWhQPrUG6nBFem-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zge93vPWhQPrUG6nBFem-6" target="Zge93vPWhQPrUG6nBFem-8">
@@ -127,6 +127,9 @@
         </mxCell>
         <mxCell id="Zge93vPWhQPrUG6nBFem-31" value="发送mq（查询待发货订单）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zge93vPWhQPrUG6nBFem-34" value="&lt;font style=&quot;color: rgb(255, 37, 13);&quot;&gt;原改价存在问题：当改价的商品过多时，查询es的次数过多，导致es压力过大。后续数据量大的时候会出问题。&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="940" width="610" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
