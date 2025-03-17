@@ -128,17 +128,8 @@
         <mxCell id="Zge93vPWhQPrUG6nBFem-31" value="发送mq（查询待发货订单）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zge93vPWhQPrUG6nBFem-34" value="&lt;font style=&quot;color: rgb(255, 37, 13);&quot;&gt;原改价存在问题：当改价的商品过多时，查询es的次数过多，导致es压力过大。后续数据量大的时候会出问题。&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="940" width="610" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Zge93vPWhQPrUG6nBFem-35" value="改造：方案一&lt;div&gt;分页去查询es，后续将查询的结果丢给异步线程处理。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="1010" width="310" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Zge93vPWhQPrUG6nBFem-36" value="改造：方案二&lt;div&gt;直接通过订单商品表连表查询。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="1080" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Zge93vPWhQPrUG6nBFem-37" value="es查询目前本身存在问题：返回所有字段，导致io过大，返回数据有得分导致浪费性能。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="968" width="490" height="30" as="geometry" />
+        <mxCell id="Zge93vPWhQPrUG6nBFem-68" value="&lt;span style=&quot;color: rgb(255, 37, 13); text-wrap-mode: nowrap;&quot;&gt;原改价存在问题：当改价的商品过多时，查询es的次数过多，导致es压力过大。后续数据量大的时候会出问题。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 37, 13); text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;es查询目前本身存在问题：返回所有字段，导致io过大，返回数据有得分导致浪费性能。&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 37, 13); text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;改造：方案一&lt;div&gt;分页去查询es，后续将查询的结果丢给异步线程处理。&lt;/div&gt;&lt;div&gt;改造：方案二&lt;div&gt;直接通过订单商品表连表查询。&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="930" width="650" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
