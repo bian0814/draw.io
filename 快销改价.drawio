@@ -131,6 +131,15 @@
         <mxCell id="Zge93vPWhQPrUG6nBFem-34" value="&lt;font style=&quot;color: rgb(255, 37, 13);&quot;&gt;原改价存在问题：当改价的商品过多时，查询es的次数过多，导致es压力过大。后续数据量大的时候会出问题。&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="940" width="610" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Zge93vPWhQPrUG6nBFem-35" value="改造：方案一&lt;div&gt;分页去查询es，后续将查询的结果丢给异步线程处理。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1010" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zge93vPWhQPrUG6nBFem-36" value="改造：方案二&lt;div&gt;直接通过订单商品表连表查询。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1080" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zge93vPWhQPrUG6nBFem-37" value="es查询目前本身存在问题：返回所有字段，导致io过大，返回数据有得分导致浪费性能。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="968" width="490" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
