@@ -79,8 +79,14 @@
         <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-30" value="拼装商品信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="354" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-32" target="0OXFxMUJJ_V1UcT2Hz3r-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-32" value="代发订单设置支付相关信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="354" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-34" value="updateOrder" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
