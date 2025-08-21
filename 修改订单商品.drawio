@@ -1,9 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="sbulko4t2_8VsUZYKOML">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-1" target="0OXFxMUJJ_V1UcT2Hz3r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-1" value="修改订单商品" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-2" target="0OXFxMUJJ_V1UcT2Hz3r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-2" target="0OXFxMUJJ_V1UcT2Hz3r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-2" value="各种数据校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-4" value="入参：&lt;br&gt;订单id，新增商品列表，换新商品列表，更新数量商品列表，换规格商品列表，删除的商品列表等" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-5" target="0OXFxMUJJ_V1UcT2Hz3r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-5" target="0OXFxMUJJ_V1UcT2Hz3r-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-5" value="数据是否正确" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="374" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-8" value="报错，结束" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-13" target="0OXFxMUJJ_V1UcT2Hz3r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-13" target="0OXFxMUJJ_V1UcT2Hz3r-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-13" target="0OXFxMUJJ_V1UcT2Hz3r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-13" value="createUpdateBatchReqBO（新增、修改、删除、换货，融合&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-15" target="0OXFxMUJJ_V1UcT2Hz3r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-15" value="修改" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-18" target="0OXFxMUJJ_V1UcT2Hz3r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-18" value="新增" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-20" target="0OXFxMUJJ_V1UcT2Hz3r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-20" value="删除" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-24" target="0OXFxMUJJ_V1UcT2Hz3r-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-24" value="getUpdateBatchBO" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-28" value="新增的商品列表-》对应新增&lt;br&gt;换新的商品列表-》新增和删除&lt;br&gt;更新的商品列表-》对应更新&lt;br&gt;换规格的商品列表-》新增和删除&lt;br&gt;删除的商品列表-》删除" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="830" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OXFxMUJJ_V1UcT2Hz3r-30" target="0OXFxMUJJ_V1UcT2Hz3r-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-30" value="拼装商品信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0OXFxMUJJ_V1UcT2Hz3r-32" value="代发订单设置支付相关信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
